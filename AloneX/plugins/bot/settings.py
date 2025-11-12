@@ -103,7 +103,7 @@ async def gib_repo_callback(_, callback_query):
         media=InputMediaVideo(
             "https://files.catbox.moe/ehi6fc.mp4", 
             has_spoiler=True, 
-            caption="\x41\x6C\x6F\x6E\x65\x20\x4D\x75\x73\x69\x63\x20\x52\x65\x70\x6F\x20\x4E\x6F\x77\x20\x50\x75\x62\x6C\x69\x63\x20\x54\x79\x70\x65\x20\x2D\x20\x2F\x72\x65\x70\x6F"
+            caption="XQueen"
         ),
         reply_markup=InlineKeyboardMarkup(
             [
