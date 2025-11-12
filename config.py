@@ -23,7 +23,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", "6637455140"))
 
 OWNER_USERNAME = getenv("OWNER_USERNAME","")
 
@@ -44,8 +44,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneUpdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AloneBotSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HOZN_HAT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HOZN_HAT")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -88,10 +88,10 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/7o7i4j.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/e26kba.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/vxp6t1.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/e26kba.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/gkkinp.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/mvaaba.jpg"
